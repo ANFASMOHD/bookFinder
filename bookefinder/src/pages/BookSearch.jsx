@@ -6,7 +6,7 @@ export default function BookSearch() {
   const { user } = useContext(AuthContext);
   const [query, setQuery] = useState("Ram");
   const [books, setBooks] = useState([]);
-
+//fetch
   useEffect(() => {
     fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`)
       .then((res) => res.json())

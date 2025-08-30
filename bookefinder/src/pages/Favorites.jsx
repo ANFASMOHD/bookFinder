@@ -5,7 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 export default function Favorites() {
   const { user } = useContext(AuthContext);
   const [favs, setFavs] = useState([]);
-
+   
   useEffect(() => {
     if (user) {
       const favKey = `favorites_${user.email}`;
@@ -13,6 +13,7 @@ export default function Favorites() {
       setFavs(stored);
     }
   }, [user]);
+  // remove
 
   const removeFav = (id) => {
     if (!user) return;

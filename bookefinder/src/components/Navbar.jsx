@@ -9,12 +9,11 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-200 shadow p-3">
       <div className="flex justify-between items-center">
-        {/* Logo */}
+      
         <Link to="/" className="font-extrabold text-lg">
           BookApp
         </Link>
 
-        {/* Desktop Links */}
         <div className="hidden md:flex space-x-3">
           {user && (
             <>
@@ -40,12 +39,12 @@ export default function Navbar() {
           )}
         </div>
 
-        {/* Hamburger Button (Mobile) */}
+      {/* hambrgr */}
         <button
           className="md:hidden text-black focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
-          {/* Icon */}
+          {/* icon */}
           {isOpen ? (
             <span className="text-2xl">&#10005;</span> // X icon
           ) : (
