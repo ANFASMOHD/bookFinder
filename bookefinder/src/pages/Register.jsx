@@ -52,7 +52,7 @@ const submit = async (e) => {
               onChange={handle}
               value={form.email}
               placeholder="Email"
-              className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -65,7 +65,7 @@ const submit = async (e) => {
               onChange={handle}
               value={form.password}
               placeholder="Password"
-              className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full p-3 bg-gray-900 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
