@@ -61,7 +61,7 @@ export default function BookSearch() {
                 onClick={() => addFav(b)}
                 className="mt-4 w-full bg-yellow-500 hover:bg-yellow-600 text-black font-medium py-2 rounded-lg transition-colors"
               >
-                ⭐ Add to Favorites
+                Add to Favorites
               </button>
             </div>
           ))}

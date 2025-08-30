@@ -20,7 +20,7 @@ export default function Login() {
         autoClose: 2000,
       });
     } else {
-      toast.success("Login successful 🎉", {
+      toast.success("Login successful ", {
         position: "top-center",
         autoClose: 1500,
       });
@@ -32,7 +32,7 @@ export default function Login() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-gray-800  to-gray-800">
       <div className="bg-gradient-to-b from-gray-700 to-gray-00 p-8 rounded-2xl shadow-xl w-80 border border-gray-700">
         <h2 className="text-2xl font-bold mb-6 text-center text-white">
-          Welcome Back 👋
+          Welcome Back 
         </h2>
         <form onSubmit={submit} className="space-y-4">
           <input
