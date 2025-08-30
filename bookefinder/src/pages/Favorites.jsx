@@ -53,7 +53,7 @@ export default function Favorites() {
             <h3 className="font-semibold text-sm text-center mb-1 line-clamp-2">
               {b.volumeInfo.title}
             </h3>
-            <p className="text-xs text-gray-600 text-center mb-2 line-clamp-1">
+            <p className="text-xs text-white text-center mb-2 line-clamp-1">
               {b.volumeInfo.authors?.join(", ")}
             </p>
             <button
